@@ -1,0 +1,49 @@
+{
+  "name": "celadon-frond-theme",
+  "displayName": "Celadon & Frond Theme",
+  "description": "A celadon mint and lavender frond palette in a light and a dark cut.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "pastel",
+    "celadon",
+    "mint",
+    "frond",
+    "lavender",
+    "sage",
+    "botanical"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#173A33",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/celadon-frond-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Celadon & Frond Light",
+        "uiTheme": "vs",
+        "path": "./themes/celadon-frond-light-color-theme.json"
+      },
+      {
+        "label": "Celadon & Frond Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/celadon-frond-dark-color-theme.json"
+      }
+    ]
+  }
+}
